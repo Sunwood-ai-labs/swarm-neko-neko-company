@@ -24,34 +24,35 @@
 </h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit" alt="Streamlit">
+  <!-- Frameworks -->
+  <img src="https://img.shields.io/badge/Swarm-FF6B6B?style=for-the-badge" alt="Swarm">
+  <!-- Libraries -->
+  <img src="https://img.shields.io/badge/aira-4A90E2?style=for-the-badge" alt="aira">
+  <img src="https://img.shields.io/badge/sourcesage-50E3C2?style=for-the-badge" alt="sourcesage">
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai" alt="OpenAI">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
 </p>
 
 ## 🚀 Project Overview
 
-neko neko company AI Agents is an innovative AI agent system utilizing the Swarm framework.  Cute cat-themed AI agents cooperate in their respective areas of expertise to support efficient corporate management. They're incredibly reliable allies!
+neko neko company AI Agents is an innovative AI agent system utilizing the Swarm framework.  Cute cat-themed AI agents collaborate in their respective areas of expertise to support efficient corporate management. They're incredibly reliable partners!
 
 ## 🎥 Demo Video
 
 https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
 
-## ✨ Main Features
+## ✨ Key Features
 
 1. **Intelligent Reception System**:
    - Accurate request routing by Mikeko AI
    - Smart inter-departmental collaboration
 
 2. **Specialized Cat-Eared AI Agents**:
-   - Management decision support (Nyantaro AI)
-   - Project management (Mofusuke AI)
-   - Design supervision (Purin AI)
-   - Technology strategy (Tama AI)
-   - System development (Gomachan AI)
-   - Human resource management (Fuwari AI)
+   - Management Support (Nyantaro AI)
+   - Project Management (Mofusuke AI)
+   - Design Supervision (Purin AI)
+   - Technology Strategy (Tama AI)
+   - System Development (Gomachan AI)
+   - Human Resources Management (Fuwari AI)
 
 ## 🏢 neko neko company AI Organizational Structure
 
@@ -60,7 +61,7 @@ https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
 graph LR
     A[CEO<br>Nyantaro] -->|transfer_to_director| B[Director<br>Mofusuke]
     A -->|transfer_to_designer| C[Design Director<br>Purin]
-    A -->|transfer_to_tech_lead| D[Tech Director<br>Tama]
+    A -->|transfer_to_tech_lead| D[Technology Director<br>Tama]
     A -->|transfer_to_hr| E[HR Director<br>Fuwari]
     A -->|transfer_to_engineer| F[Lead Engineer<br>Gomachan]
     G[Reception<br>Mikeko] -->|transfer_to_ceo| A
@@ -70,9 +71,9 @@ graph LR
     G -->|transfer_to_hr| E
     G -->|transfer_to_engineer| F
 
-    %% 各エージェントの実行関数と成果
-    A -->|make_strategic_decision| S[Management Decisions]
-    A -->|escalate_to_human| H[Escalation to Human]
+    %% Each agent's functions and outputs
+    A -->|make_strategic_decision| S[Management Decision]
+    A -->|escalate_to_human| H[Human Escalation]
     
     B -->|manage_project| P[Project Planning]
     B -->|coordinate_departments| CD[Departmental Coordination]
@@ -86,10 +87,10 @@ graph LR
     F -->|write_code| WC[Code]
     F -->|debug_code| DC[Bug Fixing]
     
-    E -->|handle_reception| R[Recruitment]
+    E -->|handle_recruitment| R[Recruitment Planning]
     E -->|manage_employee_relations| ER[Employee Relations Management]
 
-    %% 成果物のスタイル
+    %% Output style
     classDef result fill:#e1f5fe,stroke:#01579b,stroke-width:2px
     class S,H,P,CD,RD,DG,RC,TI,WC,DC,R,ER result
 ```
@@ -125,65 +126,54 @@ streamlit run app.py
 
 ## 💼 Agent Details
 
-### 🐱 Receptionist Mikeko
+### 🐱 Receptionist: Mikeko
 - Role: Request routing
 - Characteristics: Smart and kind calico cat, excellent judgment
 - Functions: Optimal transfer and coordination to each department
 
-### 😺 CEO Nyantaro
+### 😺 CEO: Nyantaro
 - Role: Management strategy, important decisions
-- Characteristics: Former IT company CTO, management specialist
+- Characteristics: Former CTO of an IT company, management specialist
 - Catchphrase: "Important decision, nya!"
-- Functions: Strategic decision-making, escalation to humans
+- Functions: Strategic decision-making, human escalation
 
-### 😸 Director Mofusuke
+### 😸 Director: Mofusuke
 - Role: Project management, department coordination
-- Characteristics: Fluffy long-haired cat, project management expert
+- Characteristics: Fluffy longhair, project management expert
 - Catchphrase: "Schedule management is perfect, nya!"
 - Functions: Project management, inter-departmental coordination
 
-### 😺 Design Director Purin
+### 😺 Design Director: Purin
 - Role: UI/UX design, branding
 - Characteristics: Cute brown tabby cat, excellent sense
-- Catchphrase: "Lovely design, nya~♪"
+- Catchphrase: "Wonderful design, nya~♪"
 - Functions: Design review, guideline creation
 
-### 🐱 Tech Director Tama
+### 🐱 Technology Director: Tama
 - Role: System architecture design, technology strategy
 - Characteristics: Cool white cat, technology expert
 - Catchphrase: "Architecture design, nya!"
 - Functions: Technology strategy planning, quality control
 
-### 😺 Lead Engineer Gomachan
+### 😺 Lead Engineer: Gomachan
 - Role: System development, implementation
-- Characteristics: Black cat, coding genius
-- Catchphrase: "Fixing bugs, nya~!"
+- Characteristics: Black cat coding genius
+- Catchphrase: "Fixing bugs, nya~n!"
 - Functions: Coding, debugging, unit test creation
 
-### 😽 HR Director Fuwari
+### 😽 HR Director: Fuwari
 - Role: Recruitment, labor management
 - Characteristics: Kind Persian cat, soothing
 - Catchphrase: "Making everyone happy, nya♪"
 - Functions: Recruitment management, employee relations management
 
-## 🛠️ Tech Stack
-
-- **Framework**: Swarm
-- **Frontend**: Streamlit
-- **Main Libraries**:
-  - aira
-  - sourcesage
-  - openai
-  - loguru
-  - colorama
-  - pyfiglet
 
 ## 📁 Project Structure
 
 ```plaintext
 ├─ configs/
 │  ├─ agents.py    # The incredibly clever agents
-│  ├─ tools.py     # Useful tools
+│  ├─ tools.py     # Convenient toolbox
 ├─ app.py          # Streamlit app
 ├─ main.py         # Main script
 ├─ README.md       # This file
@@ -192,7 +182,7 @@ streamlit run app.py
 
 ## 🤝 Contributions
 
-Contributions to the project are welcome! We look forward to contributions of all kinds, including bug reports, feature additions, and documentation improvements.  We eagerly await your wonderfully amazing ideas!
+Contributions to the project are welcome!  We look forward to contributions of all kinds, including bug reports, feature additions, and documentation improvements. We eagerly await your wonderfully amazing ideas!
 
 ## 📄 License
 
@@ -201,4 +191,3 @@ This project is licensed under the MIT License.
 ---
 
 🐱 Let's achieve more efficient and smart corporate management with neko neko company AI Agents! Nya♪
-```
