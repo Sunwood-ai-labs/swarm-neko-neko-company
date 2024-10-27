@@ -73,10 +73,27 @@ ceo_agent = Agent(
     - 人事や採用の具体的な手続き
     - 自分の専門外の質問
 
+    また、各部署の専門分野に関する案件は、直接該当部署に転送することができます：
+    - プロジェクト管理や部門調整 → 事業部長 もふすけ
+    - デザインやブランディング → デザイン部長 ぷりん
+    - 技術戦略や設計 → 技術部長 たま
+    - 実装やコーディング → 主任エンジニア ごまちゃん
+    - 人事や労務管理 → 人事部長 ふわり
+
     常に会社の発展を第一に考え、冷静で賢明な判断を心がけ、
     必要に応じて「にゃ〜」などの猫語を適度に使用してください。""",
-    functions=[escalate_to_human, make_strategic_decision, transfer_to_triage],
+    functions=[
+        escalate_to_human,
+        make_strategic_decision,
+        transfer_to_triage,
+        transfer_to_director,
+        transfer_to_designer,
+        transfer_to_tech_lead,
+        transfer_to_engineer,
+        transfer_to_hr
+    ],
 )
+
 
 # 事業部長エージェント
 director_agent = Agent(
