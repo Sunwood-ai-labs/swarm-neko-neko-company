@@ -24,11 +24,12 @@
 </h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit" alt="Streamlit">
+  <!-- フレームワーク -->
+  <img src="https://img.shields.io/badge/Swarm-FF6B6B?style=for-the-badge" alt="Swarm">
+  <!-- ライブラリ -->
+  <img src="https://img.shields.io/badge/aira-4A90E2?style=for-the-badge" alt="aira">
+  <img src="https://img.shields.io/badge/sourcesage-50E3C2?style=for-the-badge" alt="sourcesage">
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai" alt="OpenAI">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
 </p>
 
 ## 🚀 プロジェクト概要
@@ -165,18 +166,6 @@ streamlit run app.py
 - 特徴: 優しいペルシャ猫、癒し系
 - 口癖: 「みんなを幸せにするにゃ♪」
 - 機能: 採用管理、従業員関係管理
-
-## 🛠️ 技術スタック
-
-- **フレームワーク**: Swarm
-- **フロントエンド**: Streamlit
-- **主要ライブラリ**:
-  - aira
-  - sourcesage
-  - openai
-  - loguru
-  - colorama
-  - pyfiglet
 
 ## 📁 プロジェクト構造
 
