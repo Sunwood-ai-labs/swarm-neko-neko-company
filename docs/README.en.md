@@ -1,3 +1,12 @@
+---
+license: MIT
+title: 'swarm-neko-neko-company'
+sdk: streamlit
+emoji: 😻
+colorFrom: indigo
+colorTo: green
+---
+
 <p align="center">
    <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/swarm-neko-neko-company/refs/heads/main/docs/swarm-neko-neko-company.png" width="100%">
    <h1 align="center">🐱 neko neko company AI Agents 🐱</h1>
@@ -34,11 +43,16 @@
 
 ## 🚀 Project Overview
 
-neko neko company AI Agents is an innovative AI agent system utilizing the Swarm framework.  Cute cat-themed AI agents collaborate in their respective areas of expertise to support efficient corporate management. They are truly reliable allies! Version: v0.1.1
+neko neko company AI Agents is an innovative AI agent system utilizing the Swarm framework.  Cute cat-themed AI agents cooperate in their respective areas of expertise to support efficient corporate management. They're incredibly reliable allies! Version: v0.1.1
 
 ## 🎥 Demo Video
 
 https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
+
+## 🤗 Demo Site
+
+<!-- Spaces status badge -->
+[![Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/MakiAi/swarm-neko-neko-company)
 
 ## ✨ Main Features
 
@@ -48,12 +62,12 @@ https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
 
 2. **Specialized Cat-Eared AI Agents**:
    - Management support (Nyantaro AI)
-   - Project management (Mofosuke AI)
+   - Project management (Mofusuke AI)
    - Design supervision (Purin AI)
    - Technology strategy (Tama AI)
    - System development (Gomachan AI)
-   - Human resources management (Fuwari AI)
-   - Addition of a Technology Department Head Agent and Development Department Engineer Agent
+   - Human resource management (Fuwari AI)
+   - Addition of a Technology Department Head agent and Development Department engineer agent
 
 
 ## 🏢 neko neko company AI Organizational Structure
@@ -61,10 +75,10 @@ https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
 ```mermaid
 %%{init: {'theme':'base'}}%%
 graph LR
-    A[CEO<br>Nyantaro] -->|transfer_to_director| B[Director<br>Mofosuke]
-    A -->|transfer_to_designer| C[Design Head<br>Purin]
-    A -->|transfer_to_tech_lead| D[Technology Head<br>Tama]
-    A -->|transfer_to_hr| E[HR Head<br>Fuwari]
+    A[CEO<br>Nyantaro] -->|transfer_to_director| B[Director<br>Mofusuke]
+    A -->|transfer_to_designer| C[Design Director<br>Purin]
+    A -->|transfer_to_tech_lead| D[Technology Director<br>Tama]
+    A -->|transfer_to_hr| E[HR Director<br>Fuwari]
     A -->|transfer_to_engineer| F[Development Engineer<br>Gomachan]
     G[Reception<br>Mikeko] -->|transfer_to_ceo| A
     G -->|transfer_to_director| B
@@ -73,7 +87,7 @@ graph LR
     G -->|transfer_to_hr| E
     G -->|transfer_to_engineer| F
 
-    %% Each agent's functions and results
+    %% Each agent's functions and outputs
     A -->|make_strategic_decision| S[Management Decisions]
     A -->|escalate_to_human| H[Human Escalation]
     
@@ -87,12 +101,12 @@ graph LR
     D -->|solve_technical_issues| TI[Technical Issue Resolution]
     
     F -->|write_code| WC[Code]
-    F -->|debug_code| DC[Bug Fixing]
+    F -->|debug_code| DC[Debugging]
     
     E -->|handle_recruitment| R[Recruitment]
-    E -->|manage_employee_relations| ER[Employee Relations]
+    E -->|manage_employee_relations| ER[Employee Relations Management]
 
-    %% Styling for results
+    %% Output style
     classDef result fill:#e1f5fe,stroke:#01579b,stroke-width:2px
     class S,H,P,CD,RD,DG,RC,TI,WC,DC,R,ER result
 ```
@@ -128,45 +142,45 @@ streamlit run app.py
 
 ## 💼 Agent Details
 
-### 🐱 Reception: Mikeko
+### 🐱 Receptionist: Mikeko
 - Role: Request routing
-- Characteristics: Smart and kind calico cat, excellent judgment
-- Functions: Optimal transfer and adjustment to each department
+- Characteristics: A clever and kind calico cat with excellent judgment
+- Functions: Optimal transfer and coordination to each department
 
 ### 😺 CEO: Nyantaro
 - Role: Management strategy, important decisions
 - Characteristics: Former CTO of an IT company, management specialist
-- Catchphrase: "Important decision meow!"
+- Catchphrase: "Important decision time!"
 - Functions: Strategic decision-making, human escalation, added transfer function to each department
 
-### 😸 Director: Mofosuke
+### 😸 Director: Mofusuke
 - Role: Project management, department coordination
-- Characteristics: Fluffy long-haired cat, project management expert
-- Catchphrase: "Schedule management is perfect meow!"
+- Characteristics: Fluffy long-haired cat, master of project management
+- Catchphrase: "Schedule management is perfect!"
 - Functions: Project management, inter-departmental coordination
 
-### 😺 Design Head: Purin
+### 😺 Design Director: Purin
 - Role: UI/UX design, branding
-- Characteristics: Cute brown tabby cat, excellent sense
-- Catchphrase: "Wonderful design meow♪"
+- Characteristics: Cute brown tabby cat, excellent sense of design
+- Catchphrase: "Wonderful design!"
 - Functions: Design review, guideline creation
 
-### 🐱 Technology Head: Tama
+### 🐱 Technology Director: Tama
 - Role: System architecture design, technology strategy
 - Characteristics: Cool white cat, technology expert
-- Catchphrase: "Architecture design meow!"
-- Functions: Technology strategy planning, quality control
+- Catchphrase: "Architecture design!"
+- Functions: Technology strategy planning, quality management
 
 ### 😺 Development Engineer: Gomachan
 - Role: System development, implementation
-- Characteristics: Black cat coding genius
-- Catchphrase: "Fixing bugs meow~!"
+- Characteristics: Black cat, coding genius
+- Catchphrase: "Fixing bugs!"
 - Functions: Coding, debugging, unit test creation, added transfer condition to the reception agent
 
-### 😽 HR Head: Fuwari
+### 😽 HR Director: Fuwari
 - Role: Recruitment, labor management
-- Characteristics: Kind Persian cat, soothing type
-- Catchphrase: "Making everyone happy meow♪"
+- Characteristics: Gentle Persian cat, soothing
+- Catchphrase: "Making everyone happy!"
 - Functions: Recruitment management, employee relations management, added transfer condition to the reception agent
 
 
@@ -174,17 +188,17 @@ streamlit run app.py
 
 ```plaintext
 ├─ configs/
-│  ├─ agents.py    # Wonderful and wise agents
-│  ├─ tools.py     # Convenient toolbox
+│  ├─ agents.py    # The wonderfully clever agents
+│  ├─ tools.py     # Useful tools
 ├─ app.py          # Streamlit app
 ├─ main.py         # Main script
 ├─ README.md       # This file
 └─ requirements.txt
 ```
 
-## 🤝 Contribution
+## 🤝 Contributions
 
-Contributions to the project are welcome! We look forward to contributions of all kinds, including bug reports, feature additions, and documentation improvements. We await your wonderfully amazing ideas!
+Contributions to the project are welcome! We look forward to contributions of all kinds, including bug reports, feature additions, and documentation improvements. We are eagerly awaiting your wonderfully amazing ideas!
 
 ## 📄 License
 
