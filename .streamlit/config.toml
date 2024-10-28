@@ -1,0 +1,7 @@
+[theme]
+primaryColor="#7E84F2"           # メインカラー（青紫）- ボタンやリンクなどのアクセント
+backgroundColor="#BFD4D9"        # メイン背景色（薄いグレーブルー）- 柔らかな印象
+secondaryBackgroundColor="#FFFFFF" # サイドバーなどの二次的な背景（白）- コントラスト確保
+textColor="#5E608C"             # テキストカラー（濃い青紫）- 読みやすさを確保
+
+font="sans serif"
