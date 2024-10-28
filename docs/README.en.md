@@ -16,7 +16,7 @@
 </p>
 
 <h2 align="center">
-  ～ A Purrfectly Amazing AI-Powered Corporate Management System ～
+  ～ A wonderfully amazing AI-Powered Corporate Management System ～
 
 <a href="https://github.com/Sunwood-ai-labs/swarm-neko-neko-company/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
 <a href="https://github.com/Sunwood-ai-labs/swarm-neko-neko-company/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
@@ -24,7 +24,7 @@
 </h2>
 
 <p align="center">
-  <!-- Framework -->
+  <!-- Frameworks -->
   <img src="https://img.shields.io/badge/Swarm-FF6B6B?style=for-the-badge" alt="Swarm">
   <!-- Libraries -->
   <img src="https://img.shields.io/badge/aira-4A90E2?style=for-the-badge" alt="aira">
@@ -34,25 +34,26 @@
 
 ## 🚀 Project Overview
 
-neko neko company AI Agents is an innovative AI agent system utilizing the Swarm framework.  Adorable cat-themed AI agents cooperate in their respective areas of expertise to support efficient corporate management. They're purrfectly reliable helpers! Version: v0.0.0
+neko neko company AI Agents is an innovative AI agent system utilizing the Swarm framework.  Cute cat-themed AI agents collaborate in their respective areas of expertise to support efficient corporate management. They are truly reliable allies! Version: v0.1.1
 
 ## 🎥 Demo Video
 
 https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
 
-## ✨ Key Features
+## ✨ Main Features
 
 1. **Intelligent Reception System**:
    - Accurate request routing by Mikeko AI
    - Smart inter-departmental collaboration
 
 2. **Specialized Cat-Eared AI Agents**:
-   - Management Support (Nyantaro AI)
-   - Project Management (Mofusuke AI)
-   - Design Supervision (Purin AI)
-   - Technology Strategy (Tama AI)
-   - System Development (Gomachan AI)
-   - Human Resource Management (Fuwari AI)
+   - Management support (Nyantaro AI)
+   - Project management (Mofosuke AI)
+   - Design supervision (Purin AI)
+   - Technology strategy (Tama AI)
+   - System development (Gomachan AI)
+   - Human resources management (Fuwari AI)
+   - Addition of a Technology Department Head Agent and Development Department Engineer Agent
 
 
 ## 🏢 neko neko company AI Organizational Structure
@@ -60,11 +61,11 @@ https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
 ```mermaid
 %%{init: {'theme':'base'}}%%
 graph LR
-    A[CEO<br>Nyantaro] -->|transfer_to_director| B[Director<br>Mofusuke]
-    A -->|transfer_to_designer| C[Design Director<br>Purin]
-    A -->|transfer_to_tech_lead| D[Tech Director<br>Tama]
-    A -->|transfer_to_hr| E[HR Director<br>Fuwari]
-    A -->|transfer_to_engineer| F[Lead Engineer<br>Gomachan]
+    A[CEO<br>Nyantaro] -->|transfer_to_director| B[Director<br>Mofosuke]
+    A -->|transfer_to_designer| C[Design Head<br>Purin]
+    A -->|transfer_to_tech_lead| D[Technology Head<br>Tama]
+    A -->|transfer_to_hr| E[HR Head<br>Fuwari]
+    A -->|transfer_to_engineer| F[Development Engineer<br>Gomachan]
     G[Reception<br>Mikeko] -->|transfer_to_ceo| A
     G -->|transfer_to_director| B
     G -->|transfer_to_designer| C
@@ -72,12 +73,12 @@ graph LR
     G -->|transfer_to_hr| E
     G -->|transfer_to_engineer| F
 
-    %% Each agent's functions and outputs
+    %% Each agent's functions and results
     A -->|make_strategic_decision| S[Management Decisions]
-    A -->|escalate_to_human| H[Escalation to Human]
+    A -->|escalate_to_human| H[Human Escalation]
     
     B -->|manage_project| P[Project Planning]
-    B -->|coordinate_departments| CD[Departmental Coordination]
+    B -->|coordinate_departments| CD[Department Coordination]
     
     C -->|review_design| RD[Design Review]
     C -->|create_design_guidelines| DG[Design Guidelines]
@@ -89,9 +90,9 @@ graph LR
     F -->|debug_code| DC[Bug Fixing]
     
     E -->|handle_recruitment| R[Recruitment]
-    E -->|manage_employee_relations| ER[Employee Relations Management]
+    E -->|manage_employee_relations| ER[Employee Relations]
 
-    %% Style for outputs
+    %% Styling for results
     classDef result fill:#e1f5fe,stroke:#01579b,stroke-width:2px
     class S,H,P,CD,RD,DG,RC,TI,WC,DC,R,ER result
 ```
@@ -113,7 +114,7 @@ pip install -r requirements.txt
 
 1. Set environment variables:
    - Copy `.env.example` and create `.env`
-   - Set necessary tokens
+   - Set the necessary tokens
 
 2. Start the system:
 ```bash
@@ -127,62 +128,63 @@ streamlit run app.py
 
 ## 💼 Agent Details
 
-### 🐱 Receptionist: Mikeko
+### 🐱 Reception: Mikeko
 - Role: Request routing
 - Characteristics: Smart and kind calico cat, excellent judgment
-- Functions: Optimal transfer and coordination to each department
+- Functions: Optimal transfer and adjustment to each department
 
 ### 😺 CEO: Nyantaro
-- Role: Management strategy, critical decisions
+- Role: Management strategy, important decisions
 - Characteristics: Former CTO of an IT company, management specialist
 - Catchphrase: "Important decision meow!"
-- Functions: Strategic decision-making, escalation to humans
+- Functions: Strategic decision-making, human escalation, added transfer function to each department
 
-### 😸 Director: Mofusuke
-- Role: Project management, inter-departmental coordination
+### 😸 Director: Mofosuke
+- Role: Project management, department coordination
 - Characteristics: Fluffy long-haired cat, project management expert
 - Catchphrase: "Schedule management is perfect meow!"
 - Functions: Project management, inter-departmental coordination
 
-### 😺 Design Director: Purin
+### 😺 Design Head: Purin
 - Role: UI/UX design, branding
-- Characteristics: Cute brown tabby cat, excellent sense of style
-- Catchphrase: "Lovely design meow♪"
+- Characteristics: Cute brown tabby cat, excellent sense
+- Catchphrase: "Wonderful design meow♪"
 - Functions: Design review, guideline creation
 
-### 🐱 Tech Director: Tama
+### 🐱 Technology Head: Tama
 - Role: System architecture design, technology strategy
 - Characteristics: Cool white cat, technology expert
 - Catchphrase: "Architecture design meow!"
 - Functions: Technology strategy planning, quality control
 
-### 😺 Lead Engineer: Gomachan
+### 😺 Development Engineer: Gomachan
 - Role: System development, implementation
 - Characteristics: Black cat coding genius
 - Catchphrase: "Fixing bugs meow~!"
-- Functions: Coding, debugging, unit test creation
+- Functions: Coding, debugging, unit test creation, added transfer condition to the reception agent
 
-### 😽 HR Director: Fuwari
+### 😽 HR Head: Fuwari
 - Role: Recruitment, labor management
-- Characteristics: Kind Persian cat, soothing presence
+- Characteristics: Kind Persian cat, soothing type
 - Catchphrase: "Making everyone happy meow♪"
-- Functions: Recruitment management, employee relations management
+- Functions: Recruitment management, employee relations management, added transfer condition to the reception agent
+
 
 ## 📁 Project Structure
 
 ```plaintext
 ├─ configs/
-│  ├─ agents.py    # Purrfectly smart agents
-│  ├─ tools.py     # Useful toolbox
+│  ├─ agents.py    # Wonderful and wise agents
+│  ├─ tools.py     # Convenient toolbox
 ├─ app.py          # Streamlit app
 ├─ main.py         # Main script
 ├─ README.md       # This file
 └─ requirements.txt
 ```
 
-## 🤝 Contributions
+## 🤝 Contribution
 
-Contributions to the project are welcome! We look forward to contributions of all kinds, including bug reports, feature additions, and documentation improvements.  We eagerly await your purrfectly amazing ideas!
+Contributions to the project are welcome! We look forward to contributions of all kinds, including bug reports, feature additions, and documentation improvements. We await your wonderfully amazing ideas!
 
 ## 📄 License
 
