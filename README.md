@@ -34,7 +34,7 @@
 
 ## 🚀 プロジェクト概要
 
-neko neko company AI Agentsは、Swarmフレームワークを活用した革新的なAIエージェントシステムです。かわいい猫たちをモチーフにしたAIエージェントたちが、それぞれの得意分野で協力しながら、効率的な企業運営をサポートします。にゃんとも頼もしい味方たちです！
+neko neko company AI Agentsは、Swarmフレームワークを活用した革新的なAIエージェントシステムです。かわいい猫たちをモチーフにしたAIエージェントたちが、それぞれの得意分野で協力しながら、効率的な企業運営をサポートします。にゃんとも頼もしい味方たちです！  バージョン: v0.0.0
 
 ## 🎥 デモ動画
 
@@ -53,6 +53,7 @@ https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
    - 技術戦略 (たまAI)
    - システム開発 (ごまちゃんAI)
    - 人事管理 (ふわりAI)
+
 
 ## 🏢 neko neko company AI 組織構造
 
@@ -108,7 +109,7 @@ cd swarm-neko-neko-company
 pip install -r requirements.txt
 ```
 
-## 🚀 使用方法
+## 🔧 使用方法
 
 1. 環境変数の設定:
    - `.env.example`をコピーして`.env`を作成
