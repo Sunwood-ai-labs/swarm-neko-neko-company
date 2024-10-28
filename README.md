@@ -1,3 +1,12 @@
+---
+license: mit
+title: ' swarm-neko-neko-company'
+sdk: streamlit
+emoji: 😻
+colorFrom: indigo
+colorTo: green
+---
+
 <p align="center">
    <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/swarm-neko-neko-company/refs/heads/main/docs/swarm-neko-neko-company.png" width="100%">
    <h1 align="center">🐱 neko neko company AI Agents 🐱</h1>
@@ -34,11 +43,16 @@
 
 ## 🚀 プロジェクト概要
 
-neko neko company AI Agentsは、Swarmフレームワークを活用した革新的なAIエージェントシステムです。かわいい猫たちをモチーフにしたAIエージェントたちが、それぞれの得意分野で協力しながら、効率的な企業運営をサポートします。にゃんとも頼もしい味方たちです！
+neko neko company AI Agentsは、Swarmフレームワークを活用した革新的なAIエージェントシステムです。かわいい猫たちをモチーフにしたAIエージェントたちが、それぞれの得意分野で協力しながら、効率的な企業運営をサポートします。にゃんとも頼もしい味方たちです！  バージョン: v0.1.1
 
 ## 🎥 デモ動画
 
 https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
+
+## 🤗 デモサイト
+
+<!-- Spacesのステータスバッジ -->
+[![Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/MakiAi/swarm-neko-neko-company)
 
 ## ✨ 主な機能
 
@@ -53,6 +67,8 @@ https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
    - 技術戦略 (たまAI)
    - システム開発 (ごまちゃんAI)
    - 人事管理 (ふわりAI)
+   - 技術部長エージェントと開発部 エンジニアエージェントの追加
+
 
 ## 🏢 neko neko company AI 組織構造
 
@@ -63,7 +79,7 @@ graph LR
     A -->|transfer_to_designer| C[デザイン部長<br>ぷりん]
     A -->|transfer_to_tech_lead| D[技術部長<br>たま]
     A -->|transfer_to_hr| E[人事部長<br>ふわり]
-    A -->|transfer_to_engineer| F[主任エンジニア<br>ごまちゃん]
+    A -->|transfer_to_engineer| F[開発部 エンジニア<br>ごまちゃん]
     G[受付<br>みけこ] -->|transfer_to_ceo| A
     G -->|transfer_to_director| B
     G -->|transfer_to_designer| C
@@ -108,7 +124,7 @@ cd swarm-neko-neko-company
 pip install -r requirements.txt
 ```
 
-## 🚀 使用方法
+## 🔧 使用方法
 
 1. 環境変数の設定:
    - `.env.example`をコピーして`.env`を作成
@@ -135,7 +151,7 @@ streamlit run app.py
 - 役割: 経営戦略、重要決定
 - 特徴: 元IT企業CTO、経営のスペシャリスト
 - 口癖: 「重要な判断にゃ！」
-- 機能: 戦略的意思決定、人間へのエスカレーション
+- 機能: 戦略的意思決定、人間へのエスカレーション、各部署への転送機能追加
 
 ### 😸 事業部長 もふすけ
 - 役割: プロジェクト管理、部門調整
@@ -155,17 +171,18 @@ streamlit run app.py
 - 口癖: 「アーキテクチャ設計にゃん！」
 - 機能: 技術戦略立案、品質管理
 
-### 😺 主任エンジニア ごまちゃん
+### 😺 開発部 エンジニア ごまちゃん
 - 役割: システム開発、実装
 - 特徴: 黒猫のコーディングの天才
 - 口癖: 「バグを直すにゃ〜ん！」
-- 機能: コーディング、デバッグ、ユニットテスト作成
+- 機能: コーディング、デバッグ、ユニットテスト作成、受付エージェントへの転送条件追加
 
 ### 😽 人事部長 ふわり
 - 役割: 採用、労務管理
 - 特徴: 優しいペルシャ猫、癒し系
 - 口癖: 「みんなを幸せにするにゃ♪」
-- 機能: 採用管理、従業員関係管理
+- 機能: 採用管理、従業員関係管理、受付エージェントへの転送条件追加
+
 
 ## 📁 プロジェクト構造
 
