@@ -1,3 +1,12 @@
+---
+license: mit
+title: ' swarm-neko-neko-company'
+sdk: streamlit
+emoji: 😻
+colorFrom: indigo
+colorTo: green
+---
+
 <p align="center">
    <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/swarm-neko-neko-company/refs/heads/main/docs/swarm-neko-neko-company.png" width="100%">
    <h1 align="center">🐱 neko neko company AI Agents 🐱</h1>
@@ -39,6 +48,11 @@ neko neko company AI Agentsは、Swarmフレームワークを活用した革新
 ## 🎥 デモ動画
 
 https://github.com/user-attachments/assets/0f12fce0-214e-42a6-bdba-c19a7bfc3f07
+
+## 🤗 デモサイト
+
+<!-- Spacesのステータスバッジ -->
+[![Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg)](https://huggingface.co/spaces/MakiAi/swarm-neko-neko-company)
 
 ## ✨ 主な機能
 
